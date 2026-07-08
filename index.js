@@ -9,7 +9,8 @@ const celsius = [0, 20, 30, 40];
 
 let fahrenheit = [];
 
-// Write your code below
+fahrenheit = celsius.map(c => (c * 9/5) + 32);
+
 
 
 // Do not modify this line
